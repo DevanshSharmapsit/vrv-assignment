@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./service.css";
 import axios from "axios";
@@ -14,7 +15,7 @@ const ServicesCard = () => {
     }
 
     axios
-      .get(`https://vrv-assignment-a6zw.onrender.com/service/${serviceEndpoint}`, {
+      .get(`http://localhost:3000/${serviceEndpoint}`, {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -31,10 +32,10 @@ const ServicesCard = () => {
   return (
     <div className="card2">
       <h2>Services you can access:</h2>
-      <button onClick={() => handleServiceClick("cctv")}>CCTV Surveillance</button>
-      <button onClick={() => handleServiceClick("gdeployed")}>Guards Deployment</button>
-      <button onClick={() => handleServiceClick("attendence")}>Attendance Records</button>
-      <button onClick={() => handleServiceClick("activeunits")}>Active Units</button>
+      <button onClick={() => handleServiceClick("cctv")}>Eagle Eye Monitoring</button>
+      <button onClick={() => handleServiceClick("gdeployed")}>Fortress Guard</button>
+      <button onClick={() => handleServiceClick("attendence")}>Pulse Tracker</button>
+      <button onClick={() => handleServiceClick("activeunits")}>Dynamic Shield</button>
     </div>
   );
 };

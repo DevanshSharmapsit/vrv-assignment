@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <h1>👮‍♀ VRV Security Service</h1>
+      <h1>👮‍♀Security Services of VRV</h1>
       <div className="panel">
         {isAuthenticated ? <ProfileCard setIsAuthenticated={setIsAuthenticated} /> : <FlipCard setIsAuthenticated={setIsAuthenticated} />}
         <ServicesCard />
