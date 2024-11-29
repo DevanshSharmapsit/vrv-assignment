@@ -1,4 +1,4 @@
-# VRV Security’s Backend Developer Intern Assignment
+# Security system of vrv --> Backend Developer Intern Assignment
 
 # Role-Based Access Control (RBAC)
 
@@ -9,7 +9,6 @@ This is a web application developed using the MERN stack to demonstrate **Role-B
 ## Live Demo
 
 You can access the live version of the application here:  
-[**Live Demo**](https://vrv-assignment-mohit.onrender.com/)
 
 ## Features
 
